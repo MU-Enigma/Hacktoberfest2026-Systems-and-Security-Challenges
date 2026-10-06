@@ -1,0 +1,8 @@
+proc_passwd_grep_sbin_PATH
+
+Q1: ls / → confirmed /proc exists; cat /proc/cpuinfo → live hardware information
+Q2: cat /etc/passwd → confirmed user account information
+Q3: man grep → confirmed grep searches for lines matching a pattern
+Q4: ls / → confirmed /sbin exists; man hier → confirmed system administration binaries
+Q5: echo $PATH → confirmed the executable search path environment variable
+
