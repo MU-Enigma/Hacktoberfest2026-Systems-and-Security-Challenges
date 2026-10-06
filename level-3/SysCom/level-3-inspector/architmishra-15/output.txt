@@ -1,0 +1,39 @@
+$ ./sys_check.sh                                                                                                                                                 [9:58:19]
+========== SYSTEM HEALTH REPORT ==========
+ User     : archit
+ Hostname : LAPTOP-ER298N41
+
+---------- Uptime and Usage ------------
+System has been up for: up 6 hours, 15 minutes
+
+Disk Usage:
+------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.7G     0  3.7G   0% /usr/lib/modules/6.18.40.1-microsoft-standard-WSL2
+none            3.7G  4.0K  3.7G   1% /mnt/wsl
+none            3.7G  1.5M  3.7G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdf        137M   72M   54M  58% /mnt/wsl/docker-desktop/docker-desktop-user-distro
+/dev/loop0      790M  790M     0 100% /mnt/wsl/docker-desktop/cli-tools
+drivers         953G  900G   54G  95% /usr/lib/wsl/drivers
+/dev/sdd       1007G  5.9G  950G   1% /
+none            3.7G  104K  3.7G   1% /mnt/wslg
+none            3.7G     0  3.7G   0% /usr/lib/wsl/lib
+rootfs          3.7G  3.3M  3.7G   1% /init
+none            3.7G     0  3.7G   0% /dev
+none            3.7G  516K  3.7G   1% /run
+none            3.7G     0  3.7G   0% /run/lock
+none            3.7G     0  3.7G   0% /run/shm
+none            3.7G   80K  3.7G   1% /mnt/wslg/versions.txt
+none            3.7G   80K  3.7G   1% /mnt/wslg/doc
+C:\             953G  900G   54G  95% /mnt/c
+tmpfs           3.7G  564K  3.7G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           757M   16K  757M   1% /run/user/1000
+
+Memory Usage:
+------------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       810Mi       6.2Gi       6.6Mi       517Mi       6.6Gi
+Swap:          2.0Gi          0B       2.0Gi
+==========================================
