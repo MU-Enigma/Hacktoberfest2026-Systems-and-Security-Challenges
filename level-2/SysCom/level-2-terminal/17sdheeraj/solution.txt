@@ -1,0 +1,7 @@
+proc_passwd_grep_sbin_PATH
+
+q1: checked ls /proc and cat /proc/cpuinfo, dynamic pseudo filesystem with process & hardware info
+q2: cat /etc/passwd shows user accounts and config
+q3: man grep shows it searches for patterns in text
+q4: checked /sbin and man hier, holds root system binaries
+q5: echo $PATH prints the executable search path env variable
