@@ -1,6 +1,7 @@
 # Hash
 
 ## Hash Identification
+# Hash Identification
 ```bash
 $ hashid 5fcfd41e547a12215b173ff47fdd3739                                                                                                                       [17:36:12]
 
@@ -27,12 +28,14 @@ Analyzing '5fcfd41e547a12215b173ff47fdd3739'
 ***Result***: Hash Algorithm: MD5
 
 ## Cracking the Hash
+# Cracking the Hash
 ```bash
 $ hashcat -m 0 ../../artifacts/hash.txt --show                                                                                                                  [17:56:41]
 5fcfd41e547a12215b173ff47fdd3739:trustno1
 ```
 
 ## Results
+# Results
 
 * **Hash:** `5fcfd41e547a12215b173ff47fdd3739`
 * **Cracked Password:** `trustno1`
