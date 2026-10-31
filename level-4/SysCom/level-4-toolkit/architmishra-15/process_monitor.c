@@ -1,3 +1,4 @@
+// gcc -O2 process_monitor.c -o process_monitor
 #include <signal.h>
 #include <stdarg.h>
 #include <stdio.h>
