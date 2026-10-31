@@ -1,0 +1,60 @@
+====================================================
+                SYSTEM HEALTH REPORT                
+====================================================
+ Hostname       : fedora
+ Current User   : sdheeraj
+
+ System Uptime:
+   Pretty Uptime  : up 7 hours, 10 minutes
+   Load & Users   :  17:53:50 up  7:10,  0 users,  load average: 1.48, 1.50, 1.60
+
+ Memory Usage:
+----------------------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       9.3Gi       2.2Gi       1.2Gi       5.5Gi       6.1Gi
+Swap:          8.0Gi       1.4Gi       6.6Gi
+
+ Disk Usage:
+----------------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           7.7G  136K  7.7G   1% /etc/timezone
+/dev/dm-0       237G   86G  150G  37% /usr
+tmpfs           7.7G     0  7.7G   0% /usr/lib/x86_64-linux-gnu/GL
+tmpfs           7.7G     0  7.7G   0% /usr/share/runtime/share/themes
+/dev/dm-0       237G   86G  150G  37% /home
+tmpfs           1.6G  4.3M  1.6G   1% /run/host/monitor
+devtmpfs        7.6G     0  7.6G   0% /dev
+tmpfs           7.7G   40M  7.7G   1% /dev/shm
+tmpfs           7.7G     0  7.7G   0% /home/sdheeraj/.local/share/flatpak
+tmpfs           7.7G     0  7.7G   0% /home/sdheeraj/.var/app
+tmpfs           3.1G  2.9M  3.1G   1% /run/media
+/dev/loop7      128K  128K     0 100% /var/lib/snapd/snap/bare/5
+/dev/loop14     178M  178M     0 100% /var/lib/snapd/snap/termius-app/271
+/dev/loop8      616M  616M     0 100% /var/lib/snapd/snap/gnome-46-2404/168
+/dev/loop6      2.0M  2.0M     0 100% /var/lib/snapd/snap/btop/1070
+/dev/loop16     402M  402M     0 100% /var/lib/snapd/snap/mesa-2404/1839
+/dev/loop2       64M   64M     0 100% /var/lib/snapd/snap/core20/2866
+/dev/loop9       56M   56M     0 100% /var/lib/snapd/snap/core18/2999
+/dev/loop11     2.0M  2.0M     0 100% /var/lib/snapd/snap/btop/1068
+/dev/loop3       92M   92M     0 100% /var/lib/snapd/snap/gtk-common-themes/1535
+/dev/loop5       64M   64M     0 100% /var/lib/snapd/snap/core20/2922
+/dev/loop0       51M   51M     0 100% /var/lib/snapd/snap/snapd/27738
+/dev/loop1       45M   45M     0 100% /var/lib/snapd/snap/snapd/28254
+/dev/loop13      56M   56M     0 100% /var/lib/snapd/snap/core18/3084
+/dev/loop4       67M   67M     0 100% /var/lib/snapd/snap/core24/1643
+/dev/loop10      67M   67M     0 100% /var/lib/snapd/snap/core24/2124
+/dev/loop15     165M  165M     0 100% /var/lib/snapd/snap/gnome-3-28-1804/198
+/dev/loop12     153M  153M     0 100% /var/lib/snapd/snap/termius-app/268
+tmpfs           7.7G  2.5M  7.7G   1% /run/host/root/dev/shm
+efivarfs        192K   78K  110K  42% /run/host/root/sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/host/root/run/credentials/systemd-cryptsetup@luks\x2df3880e8a\x2d26ee\x2d42e0\x2d8fea\x2d213b2495c4ae.service
+none            1.0M     0  1.0M   0% /run/host/root/run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/host/root/run/credentials/systemd-resolved.service
+tmpfs           7.7G  147M  7.6G   2% /run/host/root/tmp
+/dev/nvme0n1p6  2.0G  557M  1.3G  31% /run/host/root/boot
+/dev/nvme0n1p1  260M  165M   96M  64% /run/host/root/boot/efi
+tmpfs           7.7G     0  7.7G   0% /tmp/.X11-unix
+
+====================================================
+               Report Complete                      
+====================================================
