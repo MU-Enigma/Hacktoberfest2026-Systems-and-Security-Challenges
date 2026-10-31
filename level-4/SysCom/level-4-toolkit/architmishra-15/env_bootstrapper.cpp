@@ -1,3 +1,4 @@
+// g++ -std=c++23 -O2 env_bootstrapper.cpp -o env_bootstrapper 
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
