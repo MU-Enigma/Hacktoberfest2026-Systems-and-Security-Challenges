@@ -1,0 +1,11 @@
+proc_passwd_grep_sbin_PATH
+
+Q1: ls / → confirmed /proc exists; ls /proc → observed process IDs and system information; cat /proc/cpuinfo → inspected live CPU information.
+
+Q2: ls /etc → confirmed passwd exists; cat /etc/passwd → inspected user account entries containing usernames, UIDs, GIDs, home directories and login shells.
+
+Q3: grep --help → confirmed grep searches for patterns in files and displays matching lines.
+
+Q4: ls / → confirmed /sbin exists; ls -ld /sbin → confirmed /sbin is a symbolic link to /usr/sbin on this system.
+
+Q5: echo $PATH → displayed the colon-separated directories searched by the shell when locating executable commands
